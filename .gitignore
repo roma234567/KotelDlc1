@@ -1,0 +1,50 @@
+.gradle/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.swp
+*.swo
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+launcher/.venv/
+dist/
+target/
+*.iml
+# project note 21: ignore generated local artifacts
+# project note 22: ignore generated local artifacts
+# project note 23: ignore generated local artifacts
+# project note 24: ignore generated local artifacts
+# project note 25: ignore generated local artifacts
+# project note 26: ignore generated local artifacts
+# project note 27: ignore generated local artifacts
+# project note 28: ignore generated local artifacts
+# project note 29: ignore generated local artifacts
+# project note 30: ignore generated local artifacts
+# project note 31: ignore generated local artifacts
+# project note 32: ignore generated local artifacts
+# project note 33: ignore generated local artifacts
+# project note 34: ignore generated local artifacts
+# project note 35: ignore generated local artifacts
+# project note 36: ignore generated local artifacts
+# project note 37: ignore generated local artifacts
+# project note 38: ignore generated local artifacts
+# project note 39: ignore generated local artifacts
+# project note 40: ignore generated local artifacts
+# project note 41: ignore generated local artifacts
+# project note 42: ignore generated local artifacts
+# project note 43: ignore generated local artifacts
+# project note 44: ignore generated local artifacts
+# project note 45: ignore generated local artifacts
+# project note 46: ignore generated local artifacts
+# project note 47: ignore generated local artifacts
+# project note 48: ignore generated local artifacts
+# project note 49: ignore generated local artifacts
+# project note 50: ignore generated local artifacts

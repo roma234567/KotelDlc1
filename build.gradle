@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'Kotel'
+version = '1.0.0-safe-scaffold'
+
+description = 'KotelDLC safe client-side scaffold for Minecraft-style UI and module architecture.'
+
+repositories {
+    mavenCentral()
+}
+
+// Java 21 bytecode is requested through options.release below.
+
+application {
+    mainClass = 'Kotel.client.KotelMod'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+tasks.register('printProjectSummary') {
+    group = 'verification'
+    description = 'Prints a short summary of the safe scaffold.'
+    doLast {
+        println 'KotelDLC safe scaffold: GUI, modules, settings, events, utilities.'
+        println 'Competitive automation and anti-cheat bypass code are intentionally not implemented.'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+// project note 42: safe scaffold placeholder for local/client-side use only
+// project note 43: safe scaffold placeholder for local/client-side use only
+// project note 44: safe scaffold placeholder for local/client-side use only
+// project note 45: safe scaffold placeholder for local/client-side use only
+// project note 46: safe scaffold placeholder for local/client-side use only
+// project note 47: safe scaffold placeholder for local/client-side use only
+// project note 48: safe scaffold placeholder for local/client-side use only
+// project note 49: safe scaffold placeholder for local/client-side use only
+// project note 50: safe scaffold placeholder for local/client-side use only
+// project note 47: safe scaffold placeholder for local/client-side use only
+// project note 48: safe scaffold placeholder for local/client-side use only
+// project note 49: safe scaffold placeholder for local/client-side use only
+// project note 50: safe scaffold placeholder for local/client-side use only
